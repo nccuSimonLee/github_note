@@ -1,0 +1,54 @@
+1. git condig --global <配置名稱> <配置的值>
+   配置名稱 : user.name
+              user.email
+
+   ex. $ git config --global user.email "simonlee"
+
+2. git clone <url>
+   ex. $ git clone https://github.com/shiyanlou/gitproject
+
+3. git init
+   將當前所在的資料夾初始化為git倉庫
+
+4. git add <file>
+   將檔案添加到本地的緩存區
+
+5. git commit <參數>
+   將緩存區裡的檔案提交到本地的代碼庫
+   參數：
+         -m : 注釋
+         -a : 將所有沒有加到緩存區的修改一起提交，但不會添加新建的檔案
+
+6. git push
+   將本地代碼庫同步到遠端代碼庫
+
+7. git status
+   查看當前緩存區的狀況
+
+8. git diff --cached
+   查看緩存區中哪些檔案被修改了
+
+9. git branch <參數> <分支名稱>
+   建立分支，如果沒有分支名稱則是查看當前倉庫的分支列表，以及目前在哪個分支上
+   參數：
+         -d : 刪除被當前分支合併的分支
+         -D : 強制刪除某個分支
+
+10. git checkout <分支名稱>
+    切換分支
+
+11. git merge <參數> <分支名稱>
+    將當前分支與指定分支合併
+    參數 : -m
+
+12. git reset --hard HEAD^
+    回到合併之前的狀態
+
+13.git log
+   顯示所有的提交
+   git --stat
+   git --pretty=short
+   git --graph --pretty=oneline
+
+
+
