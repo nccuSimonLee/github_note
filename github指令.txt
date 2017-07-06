@@ -47,11 +47,13 @@
 12. git reset --hard HEAD^
     回到合併之前的狀態
 
-13.git log
-   顯示所有的提交
-   git --stat
-   git --pretty=short
-   git --graph --pretty=oneline
+13. git log
+    顯示所有的提交
+    git --stat
+    git --pretty=short
+    git --graph --pretty=oneline
 
+14. git pull <path> <branch>
+    將修改過並提交的檔案拉到當前倉庫
 
 
